@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+/*write c programe to store and display the name,rollno,fees of a student using structure.pass the member of
+structure variable to a function called display() to display the contents.*/
+
 #include<stdio.h>
 typedef struct student
 {
@@ -8,7 +10,7 @@ typedef struct student
 }STUDENT;
 
 void main()
-    {
+{
     STUDENT s1;
     printf("Enter name\n");
     scanf("%s",&s1.name);
@@ -16,9 +18,8 @@ void main()
     scanf("%d",&s1.rollno);
     printf("enter fees\n");
     scanf("%0.4f",&s1.fees);
-    
-   display(s1.name,s1.rollno,s1.fees);
-   }
+    display(s1.name,s1.rollno,s1.fees);
+}
    void display(char ch[],int n,float a)
 {
     printf("name of the student=%s\n",ch);
@@ -26,9 +27,7 @@ void main()
     printf("fees of student is =%0.4f\n",a);
     
 }
-=======
-/*write c programe to store and display the name,rollno,fees of a student using structure.pass the member of
-structure variable to a function called display() to display the contents.*/
+
 #include<stdio.h>
 typedef struct student
 {
@@ -55,4 +54,3 @@ void main()
     printf("fees of student is =%0.4f\n",a);
     
 }
->>>>>>> 450f98a80b62e52e6ce74352d98ae0c5adbc94e5
