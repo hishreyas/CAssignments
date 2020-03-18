@@ -51,11 +51,11 @@ int main()
 	bubbleSortDesc(s, n);
 	
 	printf("Displaying Information:\n");
-	printf("\tName \t roll_number \t marks\n");
+	printf("\t Name \t roll-no \t marks\n");
 	
 	for(i=0;i<n;i++)
 	{
-		printf("\t%s \t%d \t%.1f \n",s[i].name,s[i].roll,s[i].marks);
+		printf("\t %s \t %d \t %.1f \n",s[i].name,s[i].roll,s[i].marks);
 		
 	}
 	
