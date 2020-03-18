@@ -1,4 +1,4 @@
-// Write C programme to Find Maximum of Two Numbers using Macro
+// Write C program to Find Maximum of Two Numbers using Macro
 
 #include<stdio.h>
 #include<string.h>
