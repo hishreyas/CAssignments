@@ -2,11 +2,22 @@
 
   _CONTRIBUTE and LEARN_
   
+  ***
+  
+  ## Programs to be covered on:
+  
+  1. **Pointers**
+  2. **DMA (Dynamic memory Allocation)**
+  3. **Strings**
+  4. **Structure and Union**
+  5. **File Handling**
+  6. **Preprocessor and command line Argument**
+  
   
   
 ***
 
-   ## Contributers
+   ### Contributers
    
 - **Prajwal Ladkat**
 - **Sachin Sharma**
