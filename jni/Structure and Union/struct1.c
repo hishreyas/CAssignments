@@ -9,7 +9,25 @@ typedef struct student
 	float marks;
 } student;
 
-void bubbleSortDesc(student stud_list[], int s);
+void bubbleSortDesc(student stud_list[100], int s)
+{
+	int i, j;
+	student temp;
+	
+	for (i = 0; i < s - 1; i++)
+	{
+		for (j = 0; j < (s - 1-i); j++)
+		{
+			if (stud_list[j].marks < stud_list[j + 1].marks) // descending order of their marks
+				{
+					temp = stud_list[j];
+					stud_list[j] = stud_list[j + 1];
+					stud_list[j + 1] = temp;
+				}
+         }
+    }
+}
+
 int main()
 {
 	int i,n;
@@ -42,25 +60,6 @@ int main()
 	}
 	
 	return 0;
-}
-
-void bubbleSortDesc(student stud_list[100], int s)
-{
-	int i, j;
-	student temp;
-	
-	for (i = 0; i < s - 1; i++)
-	{
-		for (j = 0; j < (s - 1-i); j++)
-		{
-			if (stud_list[j].marks < stud_list[j + 1].marks) // descending order of their marks
-				{
-					temp = stud_list[j];
-					stud_list[j] = stud_list[j + 1];
-					stud_list[j + 1] = temp;
-				}
-         }
-    }
 }
 
 
