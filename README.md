@@ -1,20 +1,30 @@
 # C Assignments
 
-  __STUDENT PROJECT__
+  _CONTRIBUTE and LEARN_
+  
+  
+  
 ***
 
-   ##Contributer
+   ## Contributers
    
 - **Prajwal Ladkat**
 - **Sachin Sharma**
-- **Shreyash Bansode**
+- **Manas**
+- **Shreyas Bansode**
 - ~~Next Your Name~~
+
+***
 
 ```c
 
 printf("Contribute And Learn");
 
 ```
+
+***
+> Efforts May ~~Fail~~ But Don't Fail to Make Efforts
+
 
 
 
