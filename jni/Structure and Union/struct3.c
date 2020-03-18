@@ -6,18 +6,18 @@ typedef struct student
 {
     char name[20];
     int rollno;
-}STUDENT;
+}student;
 
 void main()
 {
-    STUDENT s1;
+    student s1;
     printf("enter name:");
     scanf("%s",&s1.name);
     printf("enter rollno:");
     scanf("%d",&s1.rollno);
     display(s1);
 }
-void display(struct student s1)
+void display(student s1)
 {
     printf("name=%s\n",s1.name);
     printf("rollno=%d\n",s1.rollno);
