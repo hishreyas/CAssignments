@@ -39,8 +39,8 @@ int main()
 	int flag1=0,flag2=0,flag3=0;
 	
 	puts("Enter Number");
-	scanf("%d",&a);
-	setFlag(a,&flag1,&flag2,&flag3);
+	scanf("%d",&num);
+	setFlag(num,&flag1,&flag2,&flag3);
 	
 	printf("\nFLAG 1=%d\nFLAG 2=%d\nFLAG 3=%d\n",flag1,flag2,flag3);
 	
