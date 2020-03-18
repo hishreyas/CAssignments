@@ -1,6 +1,23 @@
-# CAssignments
-STUDENT PROJECT
-Contributer
-1.Prajwal Ladkat
-2.Sachin Sharma
-3.Shreyash Bansode
+# C Assignments
+
+  __STUDENT PROJECT__
+***
+
+   ##Contributer
+   
+- **Prajwal Ladkat**
+- **Sachin Sharma**
+- **Shreyash Bansode**
+- ~~Next Your Name~~
+
+```c
+
+printf("Contribute And Learn");
+
+```
+
+
+
+
+
+
