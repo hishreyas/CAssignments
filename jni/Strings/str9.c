@@ -6,6 +6,7 @@
 int cword(char *str)
 {
 	char * temp=str;
+	int count=0;
 	
 	while(*temp!='\0')
 	{
@@ -19,7 +20,6 @@ int cword(char *str)
 int main()
 {
 	char s[100];
-	int index;
 	
 	puts("Enter a String");
 	gets(s);
