@@ -6,7 +6,6 @@
 int cword(char *str)
 {
 	char * temp=str;
-	int count=0;
 	
 	while(*temp!='\0')
 	{
