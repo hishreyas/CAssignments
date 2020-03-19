@@ -21,6 +21,7 @@
    
 - **Prajwal Ladkat**
 - **Sachin Sharma**
+- **Vighnesh Chavan**
 - **Manas**
 - **Shreyas Bansode**
 - ~~Next Your Name~~
