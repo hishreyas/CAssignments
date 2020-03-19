@@ -32,12 +32,14 @@ int main()
 	puts("Enter another String 2");
 	gets(s2);
 	
-	while(c!=4)
+	while(c!=5)
 	{
+		puts("Enter Choice");
 		puts("1.Convert String to uppercase");
 		puts("2.Copy one String to another");
 		puts("3.Compare two strings");
 		puts("4.Concatenate two strings");
+		puts("5.exit");
 		
 		scanf("%d",&choice);
 		
@@ -79,6 +81,9 @@ int main()
 				printf("\nString 1 :%s\n",s1);
 				
 				break;
+			case 5:
+				exit(0);
+			    break;
 				
 			default:
 			    puts("Enter Vaild Choice");
