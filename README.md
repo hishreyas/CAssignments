@@ -22,20 +22,16 @@
 - **Prajwal Ladkat**
 - **Sachin Sharma**
 - **Vighnesh Chavan**
-
+- **Manas**
 - **Shreyas Bansode**
-
+- ~~Next Your Name~~
 
 ***
 
 ```c
-#include<stdio.h>
 
-int main()
-{
-   printf("Contribute And Learn");
-   return 0;
-}
+printf("Contribute And Learn");
+
 ```
 
 ***
