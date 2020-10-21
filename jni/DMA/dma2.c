@@ -37,7 +37,20 @@ int max(int *ptr,int n)
 	
     return max;
 }
-
+//additional function for min
+int min(int *ptr,int n)
+{
+    int i=0;
+    int min=i;
+    
+    for(i=1;i<n;i++)
+    {
+       if(*(ptr+i)<min)
+        min=i;
+    }
+	
+    return min;
+}
 int main()
 {
     int n;
