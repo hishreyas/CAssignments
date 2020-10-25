@@ -4,7 +4,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-void accept(int *ptr,int n)
+void accept(int *ptr,int n) /*accept function for a accepting integer*/
 {
     int i;
     
@@ -14,7 +14,7 @@ void accept(int *ptr,int n)
        scanf("%d",ptr+i);
     }
 }
-int sum(int *ptr,int n)
+int sum(int *ptr,int n) /* sum function for calculating sum of n integers*/
 {
     int i;
     int total=0;;
@@ -33,12 +33,12 @@ int main()
     int total;
     puts("Enter No of Elements");
     scanf("%d",&n);
-    array=(int *)malloc(n*sizeof(int));
+    array=(int *)malloc(n*sizeof(int));/* allocating n integer dynamically*/
     accept(array,n);
     total=sum(array,n);
     printf("\nSum of Elements =%d\n",total);
-    printf("\n Average of Elements=%f\n",(float)total/n);
-    free(array);
+    printf("\n Average of Elements=%f\n",(float)total/n); /* float typecast is used here*/
+    free(array); /* free memory space*/
 	
 	return 0;
 }
