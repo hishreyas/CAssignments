@@ -62,24 +62,4 @@ int main()
 	return 0;
 }
 
-int display() //function to display results
-  {
-	
-	
-	printf("Displaying Information:\n");
-	
-	printf("\t Name \t roll-no \t marks\n");
-	
-	for(int i=0;i<n;i++)
-	{
-		printf("\t %s \t %d \t %.1f \n",s[i].name,s[i].roll,s[i].marks);
-		
-	}
-	
-	return 0;
-  }
-	
-
-
-
-
+ 
