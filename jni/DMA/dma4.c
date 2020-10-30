@@ -43,5 +43,24 @@ int main()
 	return 0;
 }
 
+int display()
+{
+	printf("\nSum of Elements =%d\n",total);
+    printf("\n Average of Elements=%f\n",(float)total/n);//typecast im float for precise average calculation
+    free(array);
+	
+	return 0;
+}
+	
+
+	
+
+	
+
+	
+
+
+
+
 
 
