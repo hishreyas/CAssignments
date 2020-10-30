@@ -25,3 +25,12 @@ int main()
 	
 	return 0;
 }
+
+int display()
+{
+	printf("Numbers of Vowels :%d\n Numbers of Consonants:%d in given string\n",vow,con);
+	
+	return 0;
+
+}
+	
