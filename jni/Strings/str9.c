@@ -19,13 +19,13 @@ int cword(char *str)
 }
 int main()
 {
-	char s[100];
+	char s[100]; //string variable
 	
 	puts("Enter a String");
-	gets(s);
+	gets(s); //store input string in the variable s
 	
-	printf("\nNumber of Words in String :%d",cword(s));
+	printf("\nNumber of Words in String :%d",cword(s)); //print the no of words in string
 	
-	return 0;
+	return 0;//end program
 	
 }
